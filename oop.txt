@@ -1,0 +1,74 @@
+programming approach-(programming style)programming paradigams 
+
+object oriented programming paradigams(oop)
+procedure oriented programming paradigam(pop)
+functional
+declarative
+structural
+imperative
+parallel
+etc...
+
+pop
+
+give importance to procedures rather than object or data user 
+eg C language
+
+
+            oop      
+
+=>  concentrated on the objects
+=>  object is data we used in program 
+=>  real world entity
+=> eg python 
+
+
+features of oop
+
+1   => object
+2   => class
+3   => inheritance
+4   => Encapsulation
+5   => Abstraction
+6   => polymorphism
+
+/////////////////////////////////////////////object///////////////////////////////////////
+real world entity
+instance of class
+
+/////////////////////////////////////////////class////////////////////////////////////////////
+
+collection of objects 
+blueprint of an object
+datatype for objects
+user defined datatype
+(array,number,string,booleans are prediefined classes)
+
+/////////////////////////////////////////////Inheritance////////////////////////////////////////
+            
+to aquire the properties of parent class by derived class 
+
+/////////////////////////////////////////////Encapsulation////////////////////////////////////////
+
+wrapping upof data  and behaviour into a single unit
+
+/////////////////////////////////////////////Abstraction////////////////////////////////////////
+
+showing only necessary data 
+
+/////////////////////////////////////////////Polymorphism////////////////////////////////////////
+
+poly means many morphism means different forms 
+
+----------------------------------------------------------------------------------------------------
+
+
+class ClassName{
+    properties
+    methods       //members
+}
+
+var obj=new ClassName()
+
+properties and methods inside class is members
+
