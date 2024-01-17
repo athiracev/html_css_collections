@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function changeText() {
+        //     document.querySelector("#hh1").textContent = "Content changed !!! "
+        //     document.querySelector("#hh1").style.color = "green"
+        //     document.querySelector("#hh1").style.background = "yellow"
+        //     document.querySelector("#hh1").style.border = "2px solid red"
+
+        // }
+        // function inputDisplay() {
+        //     res = document.querySelector("#inp").value
+        //     // console.log(res)
+        //     document.querySelector("#hh").textContent = res
+        // }
+        // function Sum() {
+        //     var exp = document.querySelector("#input").value;
+
+        //     try {
+        //         // Use eval to calculate the result of the expression
+        //         var result = eval(exp);
+
+        //         // Display the result in the "hh" element
+        //         document.querySelector("#hh").textContent = 'Result: ' + result;
+        //     } catch (error) {
+        //         // If an error occurs during evaluation, display an error message
+        //         document.querySelector("#hh").textContent = 'Result: Invalid expression';
+        //     }
+        // }
+        // function changeColorRed() {
+        //     // document.querySelector("#hhcolor")
+        //     document.querySelector("#hhcolor").style.background = "red"
+        // }
+        // function changeColorBlue() {
+        //     // document.querySelector("#hhcolor")
+        //     document.querySelector("#hhcolor").style.background = "blue"
+        // }
+
+        // using event
+        function changeColor(e) {
+            console.log(e.target.id)
+            document.querySelector("div").style.background = e.target.id
+        }
+
+    </script>
+    <style>
+        div {
+            height: 300px;
+            width: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <p>input content will display when button is clicked</p>
+    <input type="text" id="inp">
+    <h1 id="hhh"></h1>
+    <button onclick="inputDisplay()">Click me</button>
+
+
+    <br><br>
+    <p>content will change when button is pressed</p>
+
+    <h1 id="hh1">wanna change my content!!!</h1>
+
+    <button onclick="changeText()">Click me</button>
+
+    <br><br>
+
+    <p>calculation</p>
+    <input type="text" id="input">
+    <h1 id="hh"></h1>
+    <button onclick="Sum()">Click me</button>
+
+    <br><br><br>
+
+    <p>change colors</p>
+    <div id="hhcolor">
+       color
+
+       
+    </div>
+    <button onclick="changeColorRed()">red</button>
+    <button onclick="changeColorBlue()">blue</button> -->
+
+    <div>
+        change color
+    </div> <br> <br>
+    <button id="green" onclick="changeColor(event)">GREEN</button>
+    <button id="red" onclick="changeColor(event)">RED</button>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+dom(document object model)
+
+programming interface for html and xml document
+it gives these documents a logical structure which can be accessed and manipulated
+///////////////////////////////////////////////////
+
+
+            html
+
+head                body
+
+title               h1                   p
+
+my page             hello world         hi hello
+
+
+
+<html>
+<head>
+<title>
+my page</title>
+</head>
+<body>
+<h1>hello world</h1>
+<p>hi hello</p>
+</body>
+</html>
+
+///////////////////////////////////////////////
+
+
+dom methods
+
+js methods to access and manipulate   html doc element through 
+
+document.getElementById()
+document.getElementsByTagName()
+documen.getElementsByClassName()
+document.getElementById()
+document.querySelector()
+document.querySelectorAll()
+
+getElementById
+style.background
+style.color
+style.border
+innerHTML
+textContent
+

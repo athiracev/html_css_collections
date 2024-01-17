@@ -1,0 +1,3 @@
+action done on html by either user or browser is call html events
+
+

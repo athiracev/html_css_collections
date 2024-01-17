@@ -333,3 +333,8 @@ for (let i = 1; i <= n; i++) {
 }
 console.log(string);
 
+class Employee{
+  name="Akash"
+  age=37
+  dept="accounting"
+}

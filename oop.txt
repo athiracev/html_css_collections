@@ -72,3 +72,10 @@ var obj=new ClassName()
 
 properties and methods inside class is members
 
+constructor
+
+a special memebr method definied for instatiation  with initialization 
+
+inheritance
+
+A->B
