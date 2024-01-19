@@ -9,6 +9,6 @@ login=()=>{
         // localStorage.setItem("password",password)
 
         console.log(`Username: ${username},Password: ${password}`)
-        window.location="/navbar.html"
+        window.location="./navbar.html"
     }
 }
